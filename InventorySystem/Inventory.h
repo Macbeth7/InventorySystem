@@ -96,16 +96,27 @@ public:
 		}
 	}
 
+
+	//얕은 복사
+	//void Assign(const Inventory<T>& other)
+	//{
+	//	capacity_ = other.GetCapacity_();
+	//	size_ = other.GetSize();
+	//	pItems_ = other.pItems_;
+
+	//	std::cout << "인벤토리 복사 완료" << std::endl;
+	//}
+
+	//깊은복사
 	void Assign(const Inventory<T>& other)
 	{
-		capacity_ = other.GetCapacity_();
-		size_ = other.GetSize();
+		capacity_ = other.capacity_;
+		size_ = other.size_;
 
-		//깊은복사
-		T* new_pItems = new T[other.GetCapacity_()];
-		for (int i = 0; i < other.GetSize(); i++)
+		T* new_pItems = new T[capacity_];
+		for (int i = 0; i < size_; i++)
 		{
-			new_pItems[i] = other.GetItemsPtr()[i];
+			new_pItems[i] = other.pItems_[i];
 		}
 
 		delete[] pItems_;
@@ -142,11 +153,7 @@ public:
 
 	void SortItems()
 	{
-		Item* check_casting = dynamic_cast<Item*>(&pItems_[0]);
-		if (check_casting != nullptr)
-		{
-			sort(pItems_, pItems_ + size_, compareItemsByPrice);
-		}
+		sort(pItems_, pItems_ + size_, compareItemsByPrice);
 	}
 
 	bool isItem() const {
@@ -154,7 +161,7 @@ public:
 		return check_casting != nullptr ? true : false;
 	}
 
-	static bool compareItemsByPrice(const T& a, const T& b)
+	static bool compareItemsByPrice(const Item& a, const Item& b)
 	{
 		return a.GetPrice() < b.GetPrice();
 	}

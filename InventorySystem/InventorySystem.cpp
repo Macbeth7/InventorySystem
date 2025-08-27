@@ -95,6 +95,7 @@ int main()
     cout << "secondinventory's Size : " << Thirdinventory.GetSize() << endl;
 
     cout << "Sort test" << endl;
+    cout << "Thirdinventory" << endl;
     Thirdinventory.SortItems();
     Thirdinventory.PrintAll_Items();
 

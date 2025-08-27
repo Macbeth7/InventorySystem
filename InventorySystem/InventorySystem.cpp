@@ -87,12 +87,12 @@ int main()
     cout << "secondinventory's Size : " << secondinventory.GetSize() << endl;
 
     cout << "Assign function test" << endl;
-    cout << "New Inventory : secondinventory" << endl;
+    cout << "New Inventory : Thirdinventory" << endl;
     Inventory<Item> Thirdinventory;
     Thirdinventory.Assign(inventory);
     Thirdinventory.PrintAll_Items();
-    cout << "secondinventory's Capacity : " << Thirdinventory.GetCapacity_() << endl;
-    cout << "secondinventory's Size : " << Thirdinventory.GetSize() << endl;
+    cout << "Thirdinventory's Capacity : " << Thirdinventory.GetCapacity_() << endl;
+    cout << "Thirdinventory's Size : " << Thirdinventory.GetSize() << endl;
 
     cout << "Sort test" << endl;
     cout << "Thirdinventory" << endl;

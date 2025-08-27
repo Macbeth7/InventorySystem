@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Cplus2\\InventorySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|D:\\Cplus2\\InventorySystem\\InventorySystem\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|solutionrelative:InventorySystem\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|D:\\Cplus2\\InventorySystem\\InventorySystem\\InventorySystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|solutionrelative:InventorySystem\\InventorySystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|D:\\Cplus2\\InventorySystem\\InventorySystem\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|solutionrelative:InventorySystem\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|D:\\Cplus2\\InventorySystem\\InventorySystem\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC74BF01-9573-4220-8C3A-F08F7E88DCD6}|InventorySystem\\InventorySystem.vcxproj|solutionrelative:InventorySystem\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Inventory.h",
               "DocumentMoniker": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Inventory.h",
               "RelativeDocumentMoniker": "InventorySystem\\Inventory.h",
               "ToolTip": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Inventory.h",
               "RelativeToolTip": "InventorySystem\\Inventory.h",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T06:40:54.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-25T06:40:54.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Item.h",
               "DocumentMoniker": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Item.h",
               "RelativeDocumentMoniker": "InventorySystem\\Item.h",
               "ToolTip": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Item.h",
               "RelativeToolTip": "InventorySystem\\Item.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-25T06:44:07.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Item.cpp",
               "DocumentMoniker": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Item.cpp",
               "RelativeDocumentMoniker": "InventorySystem\\Item.cpp",
               "ToolTip": "D:\\Cplus2\\InventorySystem\\InventorySystem\\Item.cpp",
               "RelativeToolTip": "InventorySystem\\Item.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-25T06:56:25.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InventorySystem.cpp",
               "DocumentMoniker": "D:\\Cplus2\\InventorySystem\\InventorySystem\\InventorySystem.cpp",
               "RelativeDocumentMoniker": "InventorySystem\\InventorySystem.cpp",
               "ToolTip": "D:\\Cplus2\\InventorySystem\\InventorySystem\\InventorySystem.cpp",
               "RelativeToolTip": "InventorySystem\\InventorySystem.cpp",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGgAAAAlAAAA",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-25T06:40:28.162Z"
+              "WhenOpened": "2025-08-25T06:40:28.162Z",
+              "EditorCaption": ""
             }
           ]
         },
